@@ -1,0 +1,20 @@
+.today-demo-controls { margin: 12px 0 0; }
+.today-demo-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #66765c; font-size: 10px; line-height: 1.4; min-height: 26px; }
+.today-demo-heading button { display: flex; align-items: center; gap: 4px; border: 0; background: transparent; color: #526447; padding: 6px 0 6px 8px; font-size: 10px; min-height: 30px; }
+.today-demo-switch { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding: 4px; background: #e9eddf; border: 1px solid #d4dcc8; border-radius: 14px; }
+.today-demo-switch button { min-width: 0; min-height: 36px; border: 0; border-radius: 10px; background: transparent; color: #5d6f50; font-size: 11px; font-weight: 550; padding: 7px 4px; }
+.today-demo-switch button[aria-pressed="true"] { background: #344b32; color: #faf9f2; box-shadow: 0 2px 0 #263d25; }
+.today-demo-switch button:focus-visible { outline: 2px solid #809c60; outline-offset: 2px; }
+.today-demo-controls-compact { display: flex; align-items: center; gap: 5px; margin-top: 10px; }
+.today-demo-controls-compact .today-demo-switch { flex: 1; }
+.today-demo-exit { display: grid; place-items: center; flex: none; width: 32px; height: 44px; padding: 0; border: 0; background: transparent; color: #62705c; }
+.today-demo-summary { font-size: 12px; color: #5c6d51; line-height: 1.65; margin: 6px 0; }
+.today-demo-exercises { margin-top: 12px; }
+.today-demo-plan-link { display: flex; justify-content: space-between; align-items: center; width: 100%; min-height: 42px; background: #e2e8d6; color: #405b36; border: 0; border-radius: 13px; padding: 9px 12px; font-size: 12px; }
+.today-demo-status { padding: 18px 0; min-height: 115px; display: flex; flex-direction: column; justify-content: center; color: #62705c; font-size: 13px; line-height: 1.65; }
+.today-demo-status p { margin: 0 0 10px; }
+.today-demo-disclosure { margin: 10px 0 0; color: #68755e; font-size: 10px; line-height: 1.65; }
+.today-dialog .today-demo-source { margin: 12px 0 0; font-size: 11px; color: #62705c; }
+.today-dialog .today-demo-notes { font-size: 13px; padding-left: 18px; line-height: 1.75; }
+.today-dialog-readiness .today-demo-controls + .today-watch { margin-top: 18px; }
+@media (max-width: 350px) { .today-demo-switch button { font-size: 10px; } }

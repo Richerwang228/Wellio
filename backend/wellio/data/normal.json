@@ -1,0 +1,739 @@
+{
+  "sessionId": "seed-session",
+  "conversationId": "seed-conversation",
+  "resetEpoch": 1,
+  "revision": 1,
+  "dayKey": "2026-09-12",
+  "timeZone": "Asia/Hong_Kong",
+  "locale": "en",
+  "scenario": "normal",
+  "profile": {
+    "name": "Alex",
+    "goal": "muscle_gain",
+    "targets": {
+      "kcal": 2400,
+      "protein": 140,
+      "carbs": 280,
+      "fat": 80
+    },
+    "dislikes": {
+      "en": "No seafood",
+      "zh-CN": "不吃海鲜"
+    },
+    "dinnerBudget": 100,
+    "expenditure": 2500
+  },
+  "readiness": {
+    "id": "readiness-normal-0912",
+    "version": 1,
+    "dayKey": "2026-09-12",
+    "quality": "valid",
+    "score": 82,
+    "scoreScale": 100,
+    "guidanceHint": "keep_plan",
+    "observedAt": "2026-09-12T08:00:00+08:00",
+    "restingHeartRate": 60,
+    "baselineHeartRate": 60,
+    "baselineSleepMinutes": 450,
+    "source": "mock_watch",
+    "sleepRecordId": "sleep-normal-0912",
+    "reasons": [
+      "sleep_near_baseline",
+      "resting_hr_near_baseline"
+    ]
+  },
+  "sleep": {
+    "id": "sleep-normal-0912",
+    "minutes": 450,
+    "bedtime": "2026-09-11T23:30:00+08:00",
+    "wakeTime": "2026-09-12T07:00:00+08:00",
+    "source": "mock_watch"
+  },
+  "meals": [
+    {
+      "id": "meal-breakfast",
+      "version": 1,
+      "period": "breakfast",
+      "time": "08:30",
+      "items": [
+        {
+          "id": "item-breakfast",
+          "name": {
+            "en": "Yogurt & oats",
+            "zh-CN": "酸奶燕麦"
+          },
+          "portion": {
+            "en": "One bowl",
+            "zh-CN": "一碗"
+          },
+          "base": {
+            "kcal": 600,
+            "protein": 30,
+            "carbs": 75,
+            "fat": 20
+          },
+          "consumedFraction": 1,
+          "estimated": true
+        }
+      ]
+    },
+    {
+      "id": "meal-lunch",
+      "version": 1,
+      "period": "lunch",
+      "time": "12:40",
+      "items": [
+        {
+          "id": "item-lunch",
+          "name": {
+            "en": "Chicken rice & vegetables",
+            "zh-CN": "鸡肉饭与配菜"
+          },
+          "portion": {
+            "en": "One serving",
+            "zh-CN": "一份"
+          },
+          "base": {
+            "kcal": 1050,
+            "protein": 60,
+            "carbs": 135,
+            "fat": 30
+          },
+          "consumedFraction": 1,
+          "estimated": true
+        }
+      ]
+    }
+  ],
+  "workout": {
+    "id": "workout-pull-0912",
+    "trainingSessionId": "planned-pull-01",
+    "version": 1,
+    "dayKey": "2026-09-12",
+    "name": {
+      "en": "Pull workout",
+      "zh-CN": "拉类训练"
+    },
+    "gymId": "gym-b",
+    "estimatedMinutes": 35,
+    "status": "planned",
+    "exercises": [
+      {
+        "id": "exercise-seated-cable-row",
+        "catalogId": "seated-cable-row",
+        "name": {
+          "en": "Seated cable row",
+          "zh-CN": "坐姿绳索划船"
+        },
+        "equipmentId": "gym-b-cable",
+        "equipment": {
+          "en": "Cable machine",
+          "zh-CN": "拉力器"
+        },
+        "sets": 3,
+        "reps": 12,
+        "restSeconds": 75,
+        "suggestedLoad": {
+          "value": 35,
+          "unit": "kg",
+          "basis": "machine_stack",
+          "source": "mock_history",
+          "sourceHistoryId": "load-b-0910-cable-row",
+          "reason": {
+            "en": "Based on your Sep 10 record on the same equipment.",
+            "zh-CN": "依据 9 月 10 日相同器械的历史记录。"
+          }
+        },
+        "completed": false,
+        "instructions": {
+          "en": "Keep your torso steady. Pull your elbows back, then return with control.",
+          "zh-CN": "保持躯干稳定，向后拉肘，再控制还原。"
+        },
+        "animation": "row"
+      },
+      {
+        "id": "exercise-lat-pulldown",
+        "catalogId": "lat-pulldown",
+        "name": {
+          "en": "Lat pulldown",
+          "zh-CN": "高位下拉"
+        },
+        "equipmentId": "gym-b-cable",
+        "equipment": {
+          "en": "Cable machine",
+          "zh-CN": "拉力器"
+        },
+        "sets": 3,
+        "reps": 12,
+        "restSeconds": 75,
+        "suggestedLoad": {
+          "value": 40,
+          "unit": "kg",
+          "basis": "machine_stack",
+          "source": "mock_history",
+          "sourceHistoryId": "load-b-0910-pulldown",
+          "reason": {
+            "en": "Based on your Sep 10 record on the same equipment.",
+            "zh-CN": "依据 9 月 10 日相同器械的历史记录。"
+          }
+        },
+        "completed": false,
+        "instructions": {
+          "en": "Keep your chest lifted. Draw the bar toward your upper chest with control.",
+          "zh-CN": "胸部自然抬起，控制横杆向上胸方向下拉。"
+        },
+        "animation": "pulldown"
+      },
+      {
+        "id": "exercise-dumbbell-curl",
+        "catalogId": "dumbbell-curl",
+        "name": {
+          "en": "Dumbbell curl",
+          "zh-CN": "哑铃弯举"
+        },
+        "equipmentId": "gym-b-dumbbells",
+        "equipment": {
+          "en": "Dumbbells",
+          "zh-CN": "哑铃"
+        },
+        "sets": 3,
+        "reps": 10,
+        "restSeconds": 75,
+        "suggestedLoad": {
+          "value": 10,
+          "unit": "kg",
+          "basis": "per_hand",
+          "source": "mock_history",
+          "sourceHistoryId": "load-b-0910-curl",
+          "reason": {
+            "en": "Based on your Sep 10 record on the same equipment.",
+            "zh-CN": "依据 9 月 10 日相同器械的历史记录。"
+          }
+        },
+        "completed": false,
+        "instructions": {
+          "en": "Keep your elbows near your sides. Curl with control and lower slowly.",
+          "zh-CN": "手肘靠近身体两侧，控制弯举并缓慢还原。"
+        }
+      }
+    ],
+    "source": "demo_preset"
+  },
+  "plan": {
+    "id": "split-plan-01",
+    "version": 1,
+    "pendingSessionIds": [
+      "planned-pull-01",
+      "planned-legs-02",
+      "planned-push-03"
+    ],
+    "sessions": [
+      {
+        "id": "planned-pull-01",
+        "split": "Pull",
+        "templateRef": "split-pull-b",
+        "slotId": "slot-0912",
+        "date": "2026-09-12",
+        "workoutId": "workout-pull-0912",
+        "status": "pending"
+      },
+      {
+        "id": "planned-legs-02",
+        "split": "Legs",
+        "templateRef": "split-legs-b",
+        "slotId": "slot-0914",
+        "date": "2026-09-14",
+        "status": "pending"
+      },
+      {
+        "id": "planned-push-03",
+        "split": "Push",
+        "templateRef": "split-push-b",
+        "slotId": "slot-0916",
+        "date": "2026-09-16",
+        "status": "pending"
+      }
+    ],
+    "availableSlots": [
+      {
+        "id": "slot-0912",
+        "date": "2026-09-12"
+      },
+      {
+        "id": "slot-0914",
+        "date": "2026-09-14"
+      },
+      {
+        "id": "slot-0916",
+        "date": "2026-09-16"
+      },
+      {
+        "id": "slot-0918",
+        "date": "2026-09-18"
+      },
+      {
+        "id": "slot-0921",
+        "date": "2026-09-21"
+      },
+      {
+        "id": "slot-0923",
+        "date": "2026-09-23"
+      },
+      {
+        "id": "slot-0925",
+        "date": "2026-09-25"
+      }
+    ],
+    "restDates": []
+  },
+  "proposals": [],
+  "messages": [],
+  "advice": {
+    "status": "unavailable",
+    "errorCode": "PROVIDER_NOT_CONFIGURED"
+  },
+  "conditions": {
+    "version": 1,
+    "gymId": "gym-b",
+    "availableMinutes": 35,
+    "dinnerBudget": 100
+  },
+  "mealRevision": 1,
+  "capabilities": {
+    "agent": false,
+    "menuSearch": false,
+    "persistence": "server"
+  },
+  "history": {
+    "weight": [
+      {
+        "date": "2026-08-29",
+        "kg": 70
+      },
+      {
+        "date": "2026-08-30",
+        "kg": 70.1
+      },
+      {
+        "date": "2026-08-31",
+        "kg": 69.9
+      },
+      {
+        "date": "2026-09-01",
+        "kg": 70.2
+      },
+      {
+        "date": "2026-09-02",
+        "kg": 70.1
+      },
+      {
+        "date": "2026-09-03",
+        "kg": 70.3
+      },
+      {
+        "date": "2026-09-04",
+        "kg": 70.2
+      },
+      {
+        "date": "2026-09-05",
+        "kg": 70.2
+      },
+      {
+        "date": "2026-09-06",
+        "kg": 70.4
+      },
+      {
+        "date": "2026-09-07",
+        "kg": 70.3
+      },
+      {
+        "date": "2026-09-08",
+        "kg": 70.4
+      },
+      {
+        "date": "2026-09-09",
+        "kg": 70.2
+      },
+      {
+        "date": "2026-09-10",
+        "kg": 70.5
+      },
+      {
+        "date": "2026-09-11",
+        "kg": 70.4
+      }
+    ],
+    "training": [
+      {
+        "date": "2026-08-29",
+        "type": "Upper body",
+        "minutes": 38
+      },
+      {
+        "date": "2026-08-30",
+        "type": "Rest",
+        "minutes": 0
+      },
+      {
+        "date": "2026-08-31",
+        "type": "Lower body",
+        "minutes": 42
+      },
+      {
+        "date": "2026-09-01",
+        "type": "Rest",
+        "minutes": 0
+      },
+      {
+        "date": "2026-09-02",
+        "type": "Pull",
+        "minutes": 35
+      },
+      {
+        "date": "2026-09-03",
+        "type": "Rest",
+        "minutes": 0
+      },
+      {
+        "date": "2026-09-04",
+        "type": "Full body",
+        "minutes": 40
+      },
+      {
+        "date": "2026-09-05",
+        "type": "Rest",
+        "minutes": 0
+      },
+      {
+        "date": "2026-09-06",
+        "type": "Upper body",
+        "minutes": 38
+      },
+      {
+        "date": "2026-09-07",
+        "type": "Rest",
+        "minutes": 0
+      },
+      {
+        "date": "2026-09-08",
+        "type": "Lower body",
+        "minutes": 42
+      },
+      {
+        "date": "2026-09-09",
+        "type": "Rest",
+        "minutes": 0
+      },
+      {
+        "date": "2026-09-10",
+        "type": "Pull",
+        "minutes": 35
+      },
+      {
+        "date": "2026-09-11",
+        "type": "Rest",
+        "minutes": 0
+      }
+    ],
+    "nutrition": [
+      {
+        "date": "2026-08-29",
+        "kcal": 2230,
+        "protein": 135,
+        "carbs": 265,
+        "fat": 70,
+        "expenditure": 2500
+      },
+      {
+        "date": "2026-08-30",
+        "kcal": 2288,
+        "protein": 140,
+        "carbs": 270,
+        "fat": 72,
+        "expenditure": 2420
+      },
+      {
+        "date": "2026-08-31",
+        "kcal": 2204,
+        "protein": 138,
+        "carbs": 260,
+        "fat": 68,
+        "expenditure": 2560
+      },
+      {
+        "date": "2026-09-01",
+        "kcal": 2375,
+        "protein": 145,
+        "carbs": 280,
+        "fat": 75,
+        "expenditure": 2430
+      },
+      {
+        "date": "2026-09-02",
+        "kcal": 2178,
+        "protein": 132,
+        "carbs": 255,
+        "fat": 70,
+        "expenditure": 2520
+      },
+      {
+        "date": "2026-09-03",
+        "kcal": 2308,
+        "protein": 140,
+        "carbs": 275,
+        "fat": 72,
+        "expenditure": 2430
+      },
+      {
+        "date": "2026-09-04",
+        "kcal": 2258,
+        "protein": 142,
+        "carbs": 265,
+        "fat": 70,
+        "expenditure": 2550
+      },
+      {
+        "date": "2026-09-05",
+        "kcal": 2196,
+        "protein": 136,
+        "carbs": 260,
+        "fat": 68,
+        "expenditure": 2410
+      },
+      {
+        "date": "2026-09-06",
+        "kcal": 2355,
+        "protein": 145,
+        "carbs": 275,
+        "fat": 75,
+        "expenditure": 2540
+      },
+      {
+        "date": "2026-09-07",
+        "kcal": 2280,
+        "protein": 138,
+        "carbs": 270,
+        "fat": 72,
+        "expenditure": 2420
+      },
+      {
+        "date": "2026-09-08",
+        "kcal": 2250,
+        "protein": 140,
+        "carbs": 265,
+        "fat": 70,
+        "expenditure": 2570
+      },
+      {
+        "date": "2026-09-09",
+        "kcal": 2710,
+        "protein": 135,
+        "carbs": 340,
+        "fat": 90,
+        "expenditure": 2440
+      },
+      {
+        "date": "2026-09-10",
+        "kcal": 2232,
+        "protein": 145,
+        "carbs": 260,
+        "fat": 68,
+        "expenditure": 2510
+      },
+      {
+        "date": "2026-09-11",
+        "kcal": 2288,
+        "protein": 140,
+        "carbs": 270,
+        "fat": 72,
+        "expenditure": 2420
+      }
+    ],
+    "load": [
+      {
+        "id": "lateral-0",
+        "date": "2026-08-29",
+        "exerciseId": "lateral-raise",
+        "name": {
+          "en": "Lateral raise",
+          "zh-CN": "侧平举"
+        },
+        "equipmentId": "gym-b-dumbbells",
+        "kg": 5,
+        "basis": "per_hand",
+        "source": "mock_history"
+      },
+      {
+        "id": "pulldown-0",
+        "date": "2026-08-29",
+        "exerciseId": "lat-pulldown",
+        "name": {
+          "en": "Lat pulldown",
+          "zh-CN": "高位下拉"
+        },
+        "equipmentId": "gym-b-cable",
+        "kg": 35,
+        "basis": "machine_stack",
+        "source": "mock_history"
+      },
+      {
+        "id": "row-0",
+        "date": "2026-08-29",
+        "exerciseId": "seated-cable-row",
+        "name": {
+          "en": "Seated cable row",
+          "zh-CN": "坐姿绳索划船"
+        },
+        "equipmentId": "gym-b-cable",
+        "kg": 30,
+        "basis": "machine_stack",
+        "source": "mock_history"
+      },
+      {
+        "id": "load-a-0902-pulldown",
+        "date": "2026-09-02",
+        "exerciseId": "lat-pulldown",
+        "name": {
+          "en": "Lat pulldown",
+          "zh-CN": "高位下拉"
+        },
+        "equipmentId": "gym-a-cable",
+        "kg": 45,
+        "basis": "machine_stack",
+        "source": "mock_history",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "id": "load-a-0902-row",
+        "date": "2026-09-02",
+        "exerciseId": "one-arm-dumbbell-row",
+        "name": {
+          "en": "One-arm dumbbell row",
+          "zh-CN": "单臂哑铃划船"
+        },
+        "equipmentId": "gym-a-dumbbells",
+        "kg": 22.5,
+        "basis": "per_hand",
+        "source": "mock_history",
+        "sets": 3,
+        "reps": 10
+      },
+      {
+        "id": "lateral-1",
+        "date": "2026-09-06",
+        "exerciseId": "lateral-raise",
+        "name": {
+          "en": "Lateral raise",
+          "zh-CN": "侧平举"
+        },
+        "equipmentId": "gym-b-dumbbells",
+        "kg": 5,
+        "basis": "per_hand",
+        "source": "mock_history"
+      },
+      {
+        "id": "pulldown-1",
+        "date": "2026-09-06",
+        "exerciseId": "lat-pulldown",
+        "name": {
+          "en": "Lat pulldown",
+          "zh-CN": "高位下拉"
+        },
+        "equipmentId": "gym-b-cable",
+        "kg": 35,
+        "basis": "machine_stack",
+        "source": "mock_history"
+      },
+      {
+        "id": "row-1",
+        "date": "2026-09-06",
+        "exerciseId": "seated-cable-row",
+        "name": {
+          "en": "Seated cable row",
+          "zh-CN": "坐姿绳索划船"
+        },
+        "equipmentId": "gym-b-cable",
+        "kg": 30,
+        "basis": "machine_stack",
+        "source": "mock_history"
+      },
+      {
+        "id": "lateral-2",
+        "date": "2026-09-10",
+        "exerciseId": "lateral-raise",
+        "name": {
+          "en": "Lateral raise",
+          "zh-CN": "侧平举"
+        },
+        "equipmentId": "gym-b-dumbbells",
+        "kg": 7.5,
+        "basis": "per_hand",
+        "source": "mock_history",
+        "sets": 2,
+        "reps": 15
+      },
+      {
+        "id": "load-b-0910-cable-row",
+        "date": "2026-09-10",
+        "exerciseId": "seated-cable-row",
+        "name": {
+          "en": "Seated cable row",
+          "zh-CN": "坐姿绳索划船"
+        },
+        "equipmentId": "gym-b-cable",
+        "kg": 35,
+        "basis": "machine_stack",
+        "source": "mock_history",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "id": "load-b-0910-curl",
+        "date": "2026-09-10",
+        "exerciseId": "dumbbell-curl",
+        "name": {
+          "en": "Dumbbell curl",
+          "zh-CN": "哑铃弯举"
+        },
+        "equipmentId": "gym-b-dumbbells",
+        "kg": 10,
+        "basis": "per_hand",
+        "source": "mock_history",
+        "sets": 3,
+        "reps": 10
+      },
+      {
+        "id": "load-b-0910-pulldown",
+        "date": "2026-09-10",
+        "exerciseId": "lat-pulldown",
+        "name": {
+          "en": "Lat pulldown",
+          "zh-CN": "高位下拉"
+        },
+        "equipmentId": "gym-b-cable",
+        "kg": 40,
+        "basis": "machine_stack",
+        "source": "mock_history",
+        "sets": 3,
+        "reps": 12
+      },
+      {
+        "id": "load-b-0910-row",
+        "date": "2026-09-10",
+        "exerciseId": "one-arm-dumbbell-row",
+        "name": {
+          "en": "One-arm dumbbell row",
+          "zh-CN": "单臂哑铃划船"
+        },
+        "equipmentId": "gym-b-dumbbells",
+        "kg": 20,
+        "basis": "per_hand",
+        "source": "mock_history",
+        "sets": 3,
+        "reps": 10
+      }
+    ]
+  },
+  "schemaVersion": 4
+}

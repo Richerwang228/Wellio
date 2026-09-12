@@ -1,0 +1,125 @@
+.today-page {
+  --today-muted: #62705c;
+  --today-line: #d9e0ce;
+  color: #2b3a2b;
+  min-width: 0;
+  padding-bottom: 2px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.today-page button, .today-dialog button { font: inherit; cursor: pointer; }
+.today-page button:disabled, .today-dialog button:disabled { opacity: .55; cursor: default; }
+.today-page button:focus-visible, .today-dialog button:focus-visible, .today-page summary:focus-visible { outline: 3px solid #809c60; outline-offset: 3px; }
+.today-header { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 18px 22px 14px; }
+.today-header h1 { font-size: 30px; font-weight: 700; letter-spacing: -1.2px; line-height: 1.15; margin: 0; }
+.today-header > span { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--today-muted); }
+.today-content { display: flex; flex-direction: column; gap: 12px; padding: 0 16px 6px; }
+.today-content > section { border-radius: 25px; padding: 12px 18px 14px; }
+.today-card-heading { display: flex; align-items: center; justify-content: space-between; gap: 8px; min-height: 32px; }
+.today-card-heading h2 { display: flex; align-items: center; gap: 7px; margin: 0; font-size: 16px; line-height: 1.3; font-weight: 650; letter-spacing: -.3px; }
+.today-detail-button, .today-source-button { display: inline-flex; align-items: center; justify-content: center; gap: 4px; min-height: 44px; border: 0; background: transparent; color: var(--today-muted); }
+.today-detail-button { width: 44px; margin: -6px -10px -6px 0; border-radius: 50%; flex: none; }
+.today-sample-button { width: auto; padding-left: 8px; padding-right: 8px; border-radius: 10px; gap: 6px; }
+.today-sample-button small { font-size: 10px; }
+.today-source-button { font-size: 11px !important; padding: 0; margin: -6px 0; text-align: right; }
+.today-readiness { background: #e7edd8; }
+.today-readiness-stage { display: grid; grid-template-columns: minmax(0, 1fr) 122px; align-items: center; gap: 8px; margin: 0 0 5px; }
+.today-gauge-button { position: relative; width: 100%; height: 113px; padding: 0; border: 0; background: transparent; }
+.today-gauge-button > svg { width: 100%; height: 113px; display: block; }
+.today-gauge-value { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; padding-bottom: 2px; pointer-events: none; }
+.today-gauge-value > strong { font-size: 43px; font-weight: 700; line-height: 1.15; letter-spacing: -2px; font-variant-numeric: tabular-nums; }
+.today-gauge-value strong small { font-size: 14px; font-weight: 400; letter-spacing: -.4px; color: #62705c; margin-left: 2px; }
+.today-gauge-value > span { font-size: 12px; line-height: 1.4; font-weight: 600; text-align: center; margin-top: 1px; }
+.today-pet { display: grid; place-items: center; }
+.today-pet .wellio-mascot { width: 120px; height: 113px; mix-blend-mode: multiply; }
+.today-health-metrics { border-top: 1px solid #ced8bc; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding-top: 10px; margin-top: 8px; }
+.today-health-metrics > div { display: flex; align-items: center; gap: 8px; }
+.today-health-metrics > div + div { padding-left: 13px; border-left: 1px solid #ced8bc; }
+.today-health-metrics > div > span { display: flex; align-items: flex-start; flex-direction: column; gap: 1px; }
+.today-health-metrics small { font-size: 11px; color: #62705c; font-weight: 400; }
+.today-health-metrics strong { font-size: 15px; font-weight: 600; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.today-plan { background: #f0f2e6; }
+.today-plan-heading { margin: 0 0 12px; }
+.today-plan h2 { font-size: 24px; font-weight: 650; line-height: 1.25; letter-spacing: -.7px; margin: 4px 0; }
+.today-gym { font-size: 12px; color: var(--today-muted); margin: 4px 0 0; }
+.today-exercises { list-style: none; padding: 0; margin: 0 0 10px; }
+.today-exercises > li { display: flex; align-items: flex-start; gap: 9px; border-top: 1px solid var(--today-line); }
+.today-exercise-number { width: 19px; flex: none; padding-top: 13px; font-size: 11px; color: #768269; font-variant-numeric: tabular-nums; }
+.today-exercise-details { flex: 1; min-width: 0; }
+.today-exercise-details > summary { min-height: 46px; display: grid; grid-template-columns: minmax(0, 1fr) auto 12px; align-items: center; column-gap: 8px; padding: 10px 0; cursor: pointer; }
+.today-page summary { list-style: none; }
+.today-page summary::-webkit-details-marker { display: none; }
+.today-exercise-details summary > strong { font-size: 13px; font-weight: 550; line-height: 1.45; }
+.today-exercise-details summary > span:not(.sr-only) { font-size: 11px; color: #64715b; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.today-exercise-details summary > svg { color: #7a856c; }
+.today-exercise-details[open] summary > svg { transform: rotate(90deg); }
+.today-exercise-done summary > strong { color: #6b795e; }
+.today-exercise-instructions { padding: 0 0 8px; }
+.today-exercise-instructions p { font-size: 13px; line-height: 1.6; margin: 6px 0; }
+.today-exercise-instructions b { font-weight: 600; }
+.today-plan-main-action { margin-top: 2px; }
+.today-page .today-button, .today-dialog .today-button { display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; min-height: 46px; padding: 10px 15px; border: 0; border-radius: 15px; font-size: 14px; font-weight: 600; line-height: 1.5; text-align: center; }
+.today-page .today-button-primary, .today-dialog .today-button-primary { color: #faf9f2; background: #344b32; box-shadow: 0 3px 0 #263d25; }
+.today-button-primary > svg { margin-left: auto; flex: none; }
+.today-page .today-button-secondary, .today-dialog .today-button-secondary { background: transparent; color: #526447; font-weight: 500; margin-top: 5px; }
+.today-button-primary:active:not(:disabled) { transform: translateY(2px); box-shadow: 0 1px 0 #263d25; }
+.today-page .today-inline-state { color: #6b6754; font-size: 12px; line-height: 1.5; padding: 8px 10px; margin: 8px 0; border-radius: 10px; background: #e8e8dc; }
+.today-reason { font-size: 14px; line-height: 1.6; margin: 12px 0; }
+.today-empty, .today-note { font-size: 13px; line-height: 1.6; color: #62705c; }
+.today-rest-summary { display: flex; align-items: center; gap: 10px; padding: 10px 0; }
+.today-rest-summary img { width: 86px; height: 86px; mix-blend-mode: multiply; }
+.today-rest-summary p { font-size: 13px; color: #62705c; margin: 5px 0 0; }
+.today-schedule-preview { margin-bottom: 12px; }
+.today-schedule-preview summary { display: flex; justify-content: space-between; align-items: center; min-height: 44px; font-size: 13px; cursor: pointer; color: #526447; }
+.today-date-moves > div { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px 8px; border-top: 1px solid var(--today-line); padding: 10px 0; font-size: 12px; }
+.today-date-moves strong { font-weight: 600; }
+.today-date-moves > div > span { display: flex; align-items: center; gap: 5px; }
+.today-content > .today-nutrition { background: #f1ede2; padding-bottom: 12px; }
+.today-energy { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; margin: 1px 0 11px; }
+.today-energy > strong { font-size: 32px; letter-spacing: -1.2px; line-height: 1.25; font-weight: 650; }
+.today-energy strong small { font-size: 14px; font-weight: 400; letter-spacing: 0; color: #62705c; }
+.today-energy > span { font-size: 11px; color: #62705c; margin-left: auto; }
+.today-macro-targets { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0; }
+.today-macro-targets > div + div { border-left: 1px solid #ddd8c9; padding-left: 14px; }
+.today-macro-targets dt { display: flex; align-items: center; gap: 5px; font-size: 11px; color: #68705d; }
+.today-macro-targets dt i { display: block; width: 5px; height: 5px; border-radius: 50%; background: #7da566; }
+.today-macro-carbs dt i { background: #c09658; }.today-macro-fat dt i { background: #8c91b2; }
+.today-macro-targets dd { margin: 3px 0 0; font-size: 21px; font-weight: 600; line-height: 1.25; letter-spacing: -.5px; }
+.today-macro-targets dd small { font-size: 12px; font-weight: 400; color: #62705c; }
+.today-nutrition-source { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 10px; color: #716f60; margin: 10px 0 0; }
+.today-text-link { display: inline-flex; align-items: center; gap: 3px; min-height: 44px; padding: 0; margin: -12px 0; border: 0; background: transparent; color: #526447; }
+.today-error { background: #f5e9df; color: #854c36; padding: 12px 16px; border-radius: 16px; font-size: 13px; }
+.today-error p { margin: 0; }.today-loading { padding: 24px; }
+.today-dialog { position: fixed; inset: 0; margin: auto; width: min(390px, calc(100vw - 28px)); max-height: calc(100dvh - 40px); overflow: auto; padding: 25px; background: #faf9f2; color: #2b3a2b; border: 1px solid #dce2d1; border-radius: 26px; font: inherit; line-height: 1.6; }
+.today-dialog::backdrop { background: #26352466; backdrop-filter: blur(3px); }
+.today-close { position: absolute; top: 12px; right: 12px; display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: 50%; color: #344b32; background: transparent; }
+.today-dialog h2 { font-size: 23px; font-weight: 650; line-height: 1.3; margin: 8px 32px 18px 0; letter-spacing: -.5px; }
+.today-dialog h3 { font-size: 16px; font-weight: 600; margin: 18px 0 8px; }
+.today-dialog p { font-size: 14px; margin: 12px 0; }
+.today-dialog .today-note { font-size: 12px; color: #62705c; }
+.today-facts { margin: 18px 0; }
+.today-facts > div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 12px 0; border-top: 1px solid #dce2d1; }
+.today-facts dt { font-size: 13px; color: #62705c; }
+.today-facts dd { margin: 0; text-align: right; font-size: 16px; font-weight: 550; }
+.today-facts dd small { display: block; font-size: 11px; color: #62705c; font-weight: 400; margin-top: 4px; }
+.today-change-list { font-size: 13px; padding-left: 18px; }.today-change-list li { margin: 8px 0; }
+@media (max-width: 350px) {
+  .today-header { padding: 16px 18px 12px; }.today-header h1 { font-size: 28px; }
+  .today-content { padding-left: 12px; padding-right: 12px; }
+  .today-content > section { padding-left: 14px; padding-right: 14px; border-radius: 22px; }
+  .today-readiness-stage { grid-template-columns: minmax(0, 1fr) 98px; gap: 4px; }
+  .today-pet .wellio-mascot { width: 100px; height: 116px; }
+  .today-gauge-value > strong { font-size: 38px; }.today-gauge-value > span { font-size: 11px; }
+  .today-health-metrics > div { gap: 5px; }.today-health-metrics > div + div { padding-left: 8px; }
+  .today-health-metrics > div > span { column-gap: 5px; }.today-health-metrics strong { font-size: 13px; }
+  .today-exercise-details > summary { grid-template-columns: minmax(0, 1fr) auto 10px; column-gap: 5px; }
+  .today-macro-targets > div + div { padding-left: 10px; }.today-dialog { padding: 20px; }
+}
+@media (hover: hover) {
+  .today-detail-button:hover { background: #d5ddc650; }
+  .today-source-button:hover, .today-text-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .today-button-primary:hover:not(:disabled) { background: #405d3c; }
+}
+@media (prefers-reduced-motion: reduce) { .today-button-primary:active:not(:disabled) { transform: none; } }
+
+.today-demo-intake{display:flex;justify-content:space-between;gap:8px;border-top:1px solid #ddd8c9;padding-top:10px;margin-top:10px;font-size:11px;color:#62705c}.today-demo-intake strong{color:#344b32;font-weight:600}

@@ -1,0 +1,16 @@
+node_modules/
+.output/
+dist/
+.vite/
+.tanstack/
+.env
+.env.*
+!.env.example
+.data/
+playwright-report/
+test-results/
+
+# Local simulator build products
+.native-build/
+
+.output-demo/

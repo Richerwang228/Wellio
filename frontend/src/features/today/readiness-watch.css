@@ -1,0 +1,39 @@
+.today-watch { position: relative; width: min(100%, 292px); margin: 22px auto 25px; isolation: isolate; }
+.today-watch-case { position: relative; padding: 11px; border-radius: 68px; background: linear-gradient(140deg, #303d2b, #192116 45%, #30382b); box-shadow: 0 20px 30px -18px #28371b70, inset 0 1px 1px #61705270; }
+.today-watch-screen { position: relative; overflow: hidden; border-radius: 57px; padding: 25px 22px 26px; background: #0d110b; color: #f4f5ee; }
+.today-watch-crown, .today-watch-side-button { position: absolute; z-index: -1; right: -6px; width: 9px; border: 1px solid #7b876d; border-radius: 4px; background: #bac4a9; }
+.today-watch-crown { top: 92px; height: 37px; background: repeating-linear-gradient(0deg, #a3af91 0 2px, #d0d7c3 2px 3px); }
+.today-watch-side-button { top: 166px; height: 60px; }
+.today-watch-topline { display: flex; justify-content: space-between; gap: 12px; color: #9bA391; font: 10px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: 2px; }
+.today-watch-dial { position: relative; width: 176px; max-width: 90%; margin: 27px auto 24px; }
+.today-watch-dial svg { display: block; width: 100%; height: auto; overflow: visible; }
+.today-watch-dial circle { fill: none; stroke-width: 13; }
+.today-watch-track { stroke: #293024; }
+.today-watch-progress { stroke-linecap: round; }
+.today-watch-score { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+.today-watch-score strong { color: #fff; font-size: 47px; font-weight: 550; line-height: 1.12; letter-spacing: -2px; font-variant-numeric: tabular-nums; }
+.today-watch-score > span { color: #aab0a2; font: 8px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; letter-spacing: 1.5px; margin-top: 8px; }
+.today-watch-score small { font: inherit; letter-spacing: 0; }
+.today-watch-metrics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 16px; row-gap: 11px; margin: 0; }
+.today-watch-metric { min-width: 0; border-top: 1px solid #33392d; padding-top: 9px; }
+.today-watch-metric dt { min-height: 25px; max-width: 106px; color: #aab0a2; font: 9px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; text-transform: uppercase; letter-spacing: 1.1px; }
+.today-watch-metric dd { margin: 1px 0 0; color: #f2f4e9; font: 550 17px/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; letter-spacing: -.7px; white-space: nowrap; }
+.today-watch-metric small { display: block; margin-top: 3px; color: #a5ae9b; font-size: 9px; line-height: 1.5; }
+
+.today-dialog.today-dialog-readiness { padding: 23px 24px 18px; width: min(364px, calc(100vw - 28px)); }
+.today-dialog.today-dialog-readiness h2 { font-size: 21px; margin: 0 32px 6px 0; }
+.today-dialog-readiness .today-watch-caption { margin: 0; color: #62705c; font-size: 12px; }
+.today-dialog-readiness .today-watch-source { padding-top: 14px; border-top: 1px solid #dce2d1; margin: 0; font-size: 11px; line-height: 1.6; color: #62705c; }
+.today-watch-explanation summary { display: flex; justify-content: space-between; align-items: center; gap: 8px; min-height: 38px; color: #526447; cursor: pointer; font-size: 11px; }
+.today-watch-explanation[open] summary > svg { transform: rotate(90deg); }
+.today-dialog-readiness .today-watch-explanation p { font-size: 12px; color: #62705c; margin: 2px 0 10px; }
+/* The app stays centered at 460px; place the watch in its desktop right gutter. */
+@media (min-width: 1200px) {
+  .today-dialog.today-dialog-readiness { left: calc(50% + 254px); right: auto; margin-inline: 0; width: min(364px, calc(50vw - 278px)); background: #faf9f2; box-shadow: 0 16px 50px -24px #28371b30; }
+  .today-dialog.today-dialog-readiness::backdrop { background: #f2f2ea33; backdrop-filter: none; }
+}
+@media (max-width: 350px) {
+  .today-dialog.today-dialog-readiness { padding: 20px 18px 14px; }
+  .today-watch-screen { padding: 23px 16px 25px; }
+  .today-watch-metrics { column-gap: 12px; }
+}

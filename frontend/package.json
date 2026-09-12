@@ -1,0 +1,62 @@
+{
+  "name": "wellio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.15.0",
+    "npm": ">=11.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 3100",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:backend": "npm run test:python",
+    "test:backend:production": "node scripts/backend-check.mjs production",
+    "test:e2e": "playwright test",
+    "start": "node .output/server/index.mjs",
+    "test:python": "node scripts/backend-check.mjs python",
+    "dev:stack": "node scripts/run-stack.mjs dev",
+    "start:stack": "node scripts/run-stack.mjs start",
+    "ios:sync": "node scripts/native-ios.mjs sync",
+    "ios:open": "node scripts/native-ios.mjs open",
+    "ios:preview": "node scripts/native-ios.mjs run",
+    "build:demo": "VITE_WELLIO_MODE=demo vite build",
+    "start:demo": "HOST=127.0.0.1 PORT=3110 node .output-demo/server/index.mjs"
+  },
+  "dependencies": {
+    "@ag-ui/client": "0.0.59",
+    "@capacitor/core": "8.5.2",
+    "@capacitor/ios": "8.5.2",
+    "@capacitor/keyboard": "8.0.5",
+    "@copilotkit/react-core": "1.71.1",
+    "@heroui/react": "3.2.5",
+    "@heroui/styles": "3.2.5",
+    "@tanstack/react-router": "1.170.35",
+    "@tanstack/react-start": "1.168.52",
+    "lucide-react": "0.577.0",
+    "nitro": "3.0.260903-beta",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-markdown": "10.1.0",
+    "remark-gfm": "4.0.1",
+    "zod": "4.6.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.2",
+    "@playwright/test": "1.63.0",
+    "@tailwindcss/vite": "4.3.3",
+    "@types/node": "22.20.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@vitejs/plugin-react": "6.1.1",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3",
+    "vite": "8.3.0",
+    "vitest": "5.0.0"
+  },
+  "overrides": {
+    "qs": "6.16.0"
+  }
+}

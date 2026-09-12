@@ -1,0 +1,33 @@
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Persistent data, uploads, logs and local knowledge caches
+/data/
+**/.data/
+*.log
+*.sqlite*
+*.db
+# Dependencies, runtimes and generated output
+node_modules/
+.venv/
+/runtime/
+.output/
+.output-*/
+dist/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vite/
+.tanstack/
+.native-build/
+coverage/
+playwright-report/
+test-results/
+.DS_Store

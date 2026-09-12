@@ -1,0 +1,804 @@
+{
+  "collection": "wellio-nutrition-v1",
+  "selected_at": "2026-09-12",
+  "scope": "Bounded adult demo coverage: nutrition, sleep, recovery, resistance training, readiness interpretation; not a whole-site mirror. Equivalent sources do not count as independent evidence.",
+  "sources": [
+    {
+      "id": "bda-sport-exercise-nutrition",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/sport-exercise-nutrition.html",
+      "topics": [
+        "sports_nutrition",
+        "protein",
+        "training_fuel",
+        "recovery",
+        "hydration"
+      ],
+      "language": "en",
+      "population": "active_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-healthy-eating",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/healthy-eating.html",
+      "topics": [
+        "balanced_diet"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-fat",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/fat.html",
+      "topics": [
+        "dietary_fat"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-calcium",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/calcium.html",
+      "topics": [
+        "calcium",
+        "micronutrients"
+      ],
+      "language": "en",
+      "population": "mixed_population_section_filter_required",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-iron-rich-foods-iron-deficiency",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/iron-rich-foods-iron-deficiency.html",
+      "topics": [
+        "iron",
+        "micronutrients"
+      ],
+      "language": "en",
+      "population": "mixed_population_section_filter_required",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-vitamin-d",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/vitamin-d.html",
+      "topics": [
+        "vitamin_d",
+        "micronutrients"
+      ],
+      "language": "en",
+      "population": "mixed_population_section_filter_required",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-fluid-water-drinks",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/fluid-water-drinks.html",
+      "topics": [
+        "hydration"
+      ],
+      "language": "en",
+      "population": "mixed_population_section_filter_required",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-supplements",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/supplements.html",
+      "topics": [
+        "supplements"
+      ],
+      "language": "en",
+      "population": "mixed_population_section_filter_required",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-vegetarian-vegan-plant-based-diet",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/vegetarian-vegan-plant-based-diet.html",
+      "topics": [
+        "plant_based",
+        "protein"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-food-facts-portion-sizes",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/food-facts-portion-sizes.html",
+      "topics": [
+        "portion_sizes"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-food-labelling-nutrition-information",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/food-labelling-nutrition-information.html",
+      "topics": [
+        "food_labels"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-fad-diets",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/fad-diets.html",
+      "topics": [
+        "diet_myths",
+        "balanced_diet"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-healthy-eating-en",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/en/healthtopics/content/100200/8800.html",
+      "topics": [
+        "balanced_diet",
+        "hong_kong"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "discovered_url": "https://www.chp.gov.hk/en/healthtopics/content/25/8800.html"
+    },
+    {
+      "id": "chp-healthy-eating-tc",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/tc/healthtopics/content/100200/8800.html",
+      "topics": [
+        "balanced_diet",
+        "hong_kong"
+      ],
+      "language": "zh-Hant",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "discovered_url": "https://www.chp.gov.hk/tc/healthtopics/content/25/8800.html"
+    },
+    {
+      "id": "chp-principles-en",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/en/static/109964.html",
+      "topics": [
+        "balanced_diet",
+        "hong_kong"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-principles-tc",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/tc/static/109964.html",
+      "topics": [
+        "balanced_diet",
+        "hong_kong"
+      ],
+      "language": "zh-Hant",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-misconceptions-en",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/en/static/90044.html",
+      "topics": [
+        "diet_myths",
+        "hong_kong"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-misconceptions-tc",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/tc/static/90044.html",
+      "topics": [
+        "diet_myths",
+        "hong_kong"
+      ],
+      "language": "zh-Hant",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-vegetarian-en",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/en/static/90050.html",
+      "topics": [
+        "plant_based",
+        "hong_kong"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-vegetarian-tc",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/tc/static/90050.html",
+      "topics": [
+        "plant_based",
+        "hong_kong"
+      ],
+      "language": "zh-Hant",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "who-healthy-diet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "topics": [
+        "balanced_diet",
+        "dietary_fat",
+        "sugar",
+        "sodium"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": false,
+      "exclusion_reason": "Collector user agent is disallowed by site robots; retained as an attempted source, not bypassed."
+    },
+    {
+      "id": "who-sodium",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+      "topics": [
+        "sodium",
+        "food_labels"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": false,
+      "exclusion_reason": "Collector user agent is disallowed by site robots; retained as an attempted source, not bypassed."
+    },
+    {
+      "id": "sda-exercise-fuel",
+      "publisher": "Sports Dietitians Australia",
+      "url": "https://sportsdietitians.com.au/Article?Action=View&Article_id=6",
+      "topics": [
+        "training_fuel",
+        "recovery",
+        "hydration"
+      ],
+      "language": "en",
+      "population": "active_adults",
+      "source_type": "download_landing_page",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "retrieval_enabled": false
+    },
+    {
+      "id": "nhs-eatwell",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/the-eatwell-guide/",
+      "topics": [
+        "balanced_diet",
+        "portion_sizes"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-banquet-en",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/en/static/90051.html",
+      "topics": [
+        "hong_kong",
+        "eating_out"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-banquet-tc",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/tc/static/90051.html",
+      "topics": [
+        "hong_kong",
+        "eating_out"
+      ],
+      "language": "zh-Hant",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-fibre-en",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/en/static/90018.html",
+      "topics": [
+        "fibre",
+        "balanced_diet"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-fibre-tc",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/tc/static/90018.html",
+      "topics": [
+        "fibre",
+        "balanced_diet"
+      ],
+      "language": "zh-Hant",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-protein-foods-en",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/en/static/100013.html",
+      "topics": [
+        "protein",
+        "food_choices"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "chp-protein-foods-tc",
+      "publisher": "Hong Kong Department of Health / Centre for Health Protection",
+      "url": "https://www.chp.gov.hk/tc/static/100013.html",
+      "topics": [
+        "protein",
+        "food_choices"
+      ],
+      "language": "zh-Hant",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "bda-sugar",
+      "publisher": "British Dietetic Association",
+      "url": "https://www.bda.uk.com/resource/sugar.html",
+      "topics": [
+        "sugar",
+        "food_labels"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "nhs-salt",
+      "publisher": "NHS",
+      "url": "https://www.nhs.uk/live-well/eat-well/food-types/salt-in-your-diet/",
+      "topics": [
+        "sodium",
+        "food_labels"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true
+    },
+    {
+      "id": "sda-exercise-fuel-pdf",
+      "publisher": "Sports Dietitians Australia",
+      "url": "https://sportsdietitians.com.au/Attachment?Action=Download&Attachment_id=231",
+      "topics": [
+        "training_fuel",
+        "recovery",
+        "hydration"
+      ],
+      "language": "en",
+      "population": "active_adults",
+      "source_type": "professional_dietitian_factsheet",
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "format": "pdf",
+      "landing_page_id": "sda-exercise-fuel"
+    },
+    {
+      "id": "sleep-loss-performance",
+      "publisher": "Sports Medicine / Springer Nature",
+      "url": "https://europepmc.org/articles/PMC9584849",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9584849/fullTextXML",
+      "format": "jats",
+      "pmcid": "PMC9584849",
+      "topics": [
+        "sleep",
+        "sleep_loss",
+        "performance",
+        "recovery"
+      ],
+      "language": "en",
+      "population": "healthy_participants_study_specific",
+      "source_type": "systematic_review_meta_analysis",
+      "jurisdiction": "international_research",
+      "limitations": [
+        "Group-average acute sleep loss findings do not predict individual percentage loss or validate a readiness cutoff."
+      ],
+      "demo_scenarios": [
+        "low_recovery",
+        "training_adjustment"
+      ],
+      "rights_status": "source_license_recorded_not_cleared_for_product_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "doi": "10.1007/s40279-022-01706-y"
+    },
+    {
+      "id": "sleep-muscle-protein",
+      "publisher": "The Journal of Physiology / Wiley",
+      "url": "https://europepmc.org/articles/PMC7217042",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7217042/fullTextXML",
+      "format": "jats",
+      "pmcid": "PMC7217042",
+      "topics": [
+        "sleep",
+        "muscle_protein_synthesis",
+        "recovery"
+      ],
+      "language": "en",
+      "population": "healthy_young_men_short_term_study",
+      "source_type": "controlled_experiment",
+      "jurisdiction": "international_research",
+      "limitations": [
+        "Short-term study in young men; no long-term hypertrophy prediction and no prescription to offset lost sleep with HIIT or food."
+      ],
+      "demo_scenarios": [
+        "low_recovery",
+        "muscle_gain"
+      ],
+      "rights_status": "source_license_recorded_not_cleared_for_product_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "doi": "10.1113/JP278828"
+    },
+    {
+      "id": "training-response-monitoring",
+      "publisher": "British Journal of Sports Medicine / BMJ",
+      "url": "https://europepmc.org/articles/PMC4789708",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4789708/fullTextXML",
+      "format": "jats",
+      "pmcid": "PMC4789708",
+      "topics": [
+        "readiness",
+        "fatigue",
+        "training_load",
+        "subjective_wellbeing"
+      ],
+      "language": "en",
+      "population": "athletes_study_specific",
+      "source_type": "systematic_review",
+      "jurisdiction": "international_research",
+      "limitations": [
+        "Athlete monitoring findings do not validate this app score or diagnose overtraining from one resting-heart-rate value."
+      ],
+      "demo_scenarios": [
+        "low_recovery",
+        "heart_rate_context",
+        "trends"
+      ],
+      "rights_status": "source_license_recorded_not_cleared_for_product_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "doi": "10.1136/bjsports-2015-094758"
+    },
+    {
+      "id": "acsm-resistance-2026",
+      "publisher": "ACSM / Medicine & Science in Sports & Exercise",
+      "url": "https://europepmc.org/articles/PMC12965823",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12965823/fullTextXML",
+      "format": "jats",
+      "pmcid": "PMC12965823",
+      "topics": [
+        "strength",
+        "hypertrophy",
+        "training_volume",
+        "exercise_selection",
+        "progression"
+      ],
+      "language": "en",
+      "population": "healthy_adults",
+      "source_type": "position_stand_overview_of_reviews",
+      "jurisdiction": "international_research",
+      "limitations": [
+        "General training principles do not supply individual loads, equivalent machine kilograms, exercise safety assessments or exact calendar rules."
+      ],
+      "demo_scenarios": [
+        "normal_training",
+        "time_reduction",
+        "equipment_change",
+        "training_adjustment",
+        "trends"
+      ],
+      "rights_status": "source_license_recorded_not_cleared_for_product_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "doi": "10.1249/MSS.0000000000003897"
+    },
+    {
+      "id": "time-efficient-training",
+      "publisher": "Sports Medicine / Springer Nature",
+      "url": "https://europepmc.org/articles/PMC8449772",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8449772/fullTextXML",
+      "format": "jats",
+      "pmcid": "PMC8449772",
+      "topics": [
+        "time_constraints",
+        "training_volume",
+        "exercise_selection",
+        "strength",
+        "hypertrophy"
+      ],
+      "language": "en",
+      "population": "healthy_adults_training_study_specific",
+      "source_type": "narrative_review",
+      "jurisdiction": "international_research",
+      "limitations": [
+        "Time-efficient programming is not evidence that 15 minutes equals 35 minutes or that rest periods should always be shortened."
+      ],
+      "demo_scenarios": [
+        "time_reduction",
+        "equipment_change"
+      ],
+      "rights_status": "source_license_recorded_not_cleared_for_product_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "doi": "10.1007/s40279-021-01490-1"
+    },
+    {
+      "id": "adult-sleep-consensus",
+      "publisher": "American Academy of Sleep Medicine / Sleep Research Society",
+      "url": "https://europepmc.org/articles/PMC4434546",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4434546/fullTextXML",
+      "format": "jats",
+      "pmcid": "PMC4434546",
+      "topics": [
+        "sleep",
+        "sleep_duration",
+        "recovery"
+      ],
+      "language": "en",
+      "population": "healthy_adults_age_18_60",
+      "source_type": "expert_consensus",
+      "jurisdiction": "international_research",
+      "limitations": [
+        "Habitual adult sleep guidance is not a single-night exercise prohibition threshold or a universal athlete sleep prescription."
+      ],
+      "demo_scenarios": [
+        "low_recovery",
+        "sleep_habits"
+      ],
+      "rights_status": "source_license_recorded_not_cleared_for_product_redistribution",
+      "review_status": "pending_content_review",
+      "included": false,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "exclusion_reason": "Not retained: collection failed and user requested a small demo set without further retries."
+    },
+    {
+      "id": "caffeine-sleep-trial",
+      "publisher": "Journal of Clinical Sleep Medicine / AASM",
+      "url": "https://europepmc.org/articles/PMC3805807",
+      "download_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3805807/fullTextXML",
+      "format": "jats",
+      "pmcid": "PMC3805807",
+      "topics": [
+        "caffeine",
+        "sleep",
+        "sleep_hygiene"
+      ],
+      "language": "en",
+      "population": "healthy_adults_small_sample_fixed_400mg_dose",
+      "source_type": "randomized_trial",
+      "jurisdiction": "international_research",
+      "limitations": [
+        "Fixed 400 mg dose and small sample; do not equate one coffee with 400 mg or treat six hours as a universal safe cutoff."
+      ],
+      "demo_scenarios": [
+        "evening_food_sleep"
+      ],
+      "rights_status": "source_license_recorded_not_cleared_for_product_redistribution",
+      "review_status": "pending_content_review",
+      "included": false,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "doi": "10.5664/jcsm.3170",
+      "exclusion_reason": "Not retained: collection failed and user requested a small demo set without further retries."
+    },
+    {
+      "id": "nhlbi-sleep-habits",
+      "publisher": "NIH / National Heart, Lung, and Blood Institute",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "topics": [
+        "sleep",
+        "sleep_hygiene",
+        "caffeine",
+        "meal_timing"
+      ],
+      "language": "en",
+      "population": "mixed_population_section_filter_required",
+      "source_type": "institutional_guidance",
+      "jurisdiction": "US",
+      "limitations": [
+        "Sleep hygiene advice includes children and shift workers; select the adult relevant section and individualize timing."
+      ],
+      "demo_scenarios": [
+        "sleep_habits",
+        "evening_food_sleep"
+      ],
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": true,
+      "collection_batch": "demo-sleep-training-2026-09-12"
+    },
+    {
+      "id": "aha-heart-rate",
+      "publisher": "American Heart Association",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/the-facts-about-high-blood-pressure/all-about-heart-rate-pulse",
+      "topics": [
+        "heart_rate",
+        "readiness",
+        "measurement_context"
+      ],
+      "language": "en",
+      "population": "general_adults",
+      "source_type": "institutional_guidance",
+      "jurisdiction": "US",
+      "limitations": [
+        "Single pulse readings cannot diagnose illness or recovery. US emergency contact information requires localization before user-facing use."
+      ],
+      "demo_scenarios": [
+        "heart_rate_context",
+        "low_recovery"
+      ],
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": false,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "exclusion_reason": "Not retained: collection failed and user requested a small demo set without further retries."
+    },
+    {
+      "id": "acsm-resistance-2026-summary",
+      "publisher": "American College of Sports Medicine",
+      "url": "https://acsm.org/resistance-training-guidelines-update-2026/",
+      "topics": [
+        "strength",
+        "hypertrophy",
+        "exercise_selection",
+        "progression"
+      ],
+      "language": "en",
+      "population": "healthy_adults",
+      "source_type": "institutional_research_summary",
+      "jurisdiction": "US",
+      "limitations": [
+        "Official summary of the same 2026 position stand; not independent corroborating evidence."
+      ],
+      "demo_scenarios": [
+        "normal_training",
+        "equipment_change",
+        "time_reduction"
+      ],
+      "rights_status": "not_cleared_for_redistribution",
+      "review_status": "pending_content_review",
+      "included": false,
+      "collection_batch": "demo-sleep-training-2026-09-12",
+      "equivalence_group": "acsm-resistance-2026",
+      "exclusion_reason": "Not retained: collection failed and user requested a small demo set without further retries."
+    }
+  ]
+}

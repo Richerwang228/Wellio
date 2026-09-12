@@ -1,0 +1,6 @@
+/* Stable feet and container: no translateY, no frame swaps for thinking. */
+.mascot-idle{transform-origin:50% 88%;animation:wellio-idle 6s ease-in-out infinite}
+.mascot-thinking{transform-origin:50% 88%;animation:wellio-thinking 2.6s ease-in-out infinite}
+@keyframes wellio-idle{0%,100%{transform:rotate(0) scale(1)}35%{transform:rotate(-1.5deg) scale(1.01,1.015)}70%{transform:rotate(1deg) scale(1)}}
+@keyframes wellio-thinking{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(3deg)}}
+@media(prefers-reduced-motion:reduce){.mascot-idle,.mascot-thinking{animation:none}}

@@ -1,0 +1,3 @@
+import type {Meal,Nutrients} from './contracts'
+export function mealTotals(meal:Meal):Nutrients{return meal.items.reduce((sum,item)=>({kcal:sum.kcal+item.base.kcal*item.consumedFraction,protein:sum.protein+item.base.protein*item.consumedFraction,carbs:sum.carbs+item.base.carbs*item.consumedFraction,fat:sum.fat+item.base.fat*item.consumedFraction}),{kcal:0,protein:0,carbs:0,fat:0})}
+export function dailyTotals(meals:Meal[]):Nutrients{return meals.reduce((sum,meal)=>{const n=mealTotals(meal);return {kcal:sum.kcal+n.kcal,protein:sum.protein+n.protein,carbs:sum.carbs+n.carbs,fat:sum.fat+n.fat}},{kcal:0,protein:0,carbs:0,fat:0})}

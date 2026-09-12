@@ -1,0 +1,61 @@
+{
+  "source": "Frozen from Wellio TypeScript createSeed and canonicalJson on 2026-09-12, snapshot schema 4. Dynamic sessionId/conversationId/resetEpoch/revision excluded from seed digests. No database or model is accessed to generate this reference.",
+  "canonicalVectors": [
+    {
+      "input": {
+        "integer": 1,
+        "decimal": 1,
+        "negativeZero": 0,
+        "chinese": "晚餐预算改成70。"
+      },
+      "canonical": "{\"chinese\":\"晚餐预算改成70。\",\"decimal\":1,\"integer\":1,\"negativeZero\":0}",
+      "hash": "26640e78be1d4f2bb7989c9b6b6ab1fbe366a8f22dfc49f96cabcaabdafab1cd"
+    },
+    {
+      "input": {
+        "z": [
+          3,
+          {
+            "b": "薯条",
+            "a": 0.5
+          },
+          1
+        ],
+        "a": {
+          "第二": false,
+          "第一": null
+        }
+      },
+      "canonical": "{\"a\":{\"第一\":null,\"第二\":false},\"z\":[3,{\"a\":0.5,\"b\":\"薯条\"},1]}",
+      "hash": "bb99caae2c3c6b6a4a989195ad524fbc55e75e217b06665ad1993697e0f94926"
+    },
+    {
+      "input": {
+        "numbers": [
+          1e-07,
+          1e-06,
+          100000000000000000000,
+          1e+21,
+          0.30000000000000004,
+          9007199254740991
+        ]
+      },
+      "canonical": "{\"numbers\":[1e-7,0.000001,100000000000000000000,1e+21,0.30000000000000004,9007199254740991]}",
+      "hash": "1a22ffd5db9383c00743d50353266b3857988b6a9416619021f02def1eb840fe"
+    },
+    {
+      "input": {
+        "": "private range",
+        "😀": "astral",
+        "中": "CJK",
+        "a": "quotes \" slash \\ newline\n"
+      },
+      "canonical": "{\"a\":\"quotes \\\" slash \\\\ newline\\n\",\"中\":\"CJK\",\"😀\":\"astral\",\"\":\"private range\"}",
+      "hash": "0e995ff991f4a03efe79c0ae1719c9809667dc3e3ff770ec4062649a9aca49c0"
+    }
+  ],
+  "seedHashes": {
+    "normal": "dbda9505123c1edf033af68ef43eea0f924d998e0d89c292adbbb75828f44f54",
+    "low_recovery": "59dbebb18a325ba8f4cc9d8c57e522a2f28aa4e6f299cfec6f385904c1717ca2"
+  }
+}

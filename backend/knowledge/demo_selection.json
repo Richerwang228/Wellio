@@ -1,0 +1,14 @@
+{
+  "version": "demo-selection-v1",
+  "note": "Small adult demo set. Source passages remain evidence candidates, not pre-approved medical advice. Keep applicability metadata and full parent text.",
+  "documents": {
+    "sleep-loss-performance": ["Conclusions", "Conclusion", "Key Points", "Limitations and Future Direction"],
+    "acsm-resistance-2026": ["Conclusions:", "Strength", "Hypertrophy", "Improving hypertrophy"],
+    "time-efficient-training": ["Practical Applications", "Conclusion", "Rest Periods", "Warm-up", "Multi-Joint and Single Joint Exercises", "Free-Weight and Machine Exercises"],
+    "nhlbi-sleep-habits": ["Sleep Deprivation and Deficiency Healthy Sleep Habits"],
+    "bda-sport-exercise-nutrition": ["What can I eat to fuel my body for exercise?", "What about protein?", "Always maintain hydration", "Top tips"],
+    "bda-food-facts-portion-sizes": ["What is a portion of food?", "Why are portion sizes important?", "Protein – what is a portion?", "Mixing food types and portions"],
+    "chp-protein-foods-tc": ["營養價值", "食物來源", "計算食物份量的方法", "健康錦囊"],
+    "chp-banquet-tc": ["享用健康中菜的主要原則", "其他小貼士"]
+  }
+}
